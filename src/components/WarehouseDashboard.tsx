@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 
 import { WarehouseScene, type TaskPackage, type WarehouseWorker } from "@/components/warehouse";
 import { createDemoProvider, type DemoProvider } from "@/lib/demo-provider";
@@ -113,6 +114,7 @@ export function WarehouseDashboard() {
             </div>
             <h1 className="max-w-2xl text-4xl font-semibold tracking-[-0.045em] text-white sm:text-5xl">Your AI team, visible at work.</h1>
             <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-400">A live, replayable floor for agent handoffs, tooling, and delivery decisions.</p>
+            <Link href="/runs" className="mt-4 inline-flex text-xs font-semibold text-cyan-300 transition hover:text-cyan-100">Open run history <span aria-hidden="true" className="ml-1">→</span></Link>
           </div>
           <div className="panel flex flex-wrap items-center gap-2 rounded-2xl p-2">
             <span className="rounded-xl border border-emerald-300/20 bg-emerald-400/10 px-3 py-2 text-xs font-semibold text-emerald-300">DEMO MODE</span>
