@@ -9,7 +9,7 @@ Ship a responsive, visually polished Next.js MVP that simulates a team of collab
 1. **Foundation** — complete. TypeScript/Next project, developer tooling, shared domain types, deterministic demo data, and documentation are in place.
 2. **Vertical slice** — complete. The dashboard renders a live warehouse scene, event feed, worker inspection, task queue, controls, and simulated user commands.
 3. **Provider boundary** — complete for design/MVP. The DemoProvider is implemented; the Codex adapter is deliberately documented and configuration-gated rather than pretending to control arbitrary sessions.
-4. **Quality and shipping** — in progress. Type checks, tests, lint, production build, and browser interaction QA have passed; next steps are CI, commit/push, and preview deployment where configured.
+4. **Quality and shipping** — complete for the repository. Type checks, tests, lint, production build, and browser interaction QA passed; CI is committed; the `codex/agent-warehouse` branch is pushed and draft PR #1 is open. Preview deployment is intentionally pending a connected Vercel (or other hosting) project.
 
 ## Current decisions
 
